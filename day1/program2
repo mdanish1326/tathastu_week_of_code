@@ -1,0 +1,6 @@
+#day1 find Sqrt (program 2)
+from math import sqrt
+
+num = eval(input("Enter No.: "))
+num_sqrt = sqrt(num)
+print("Square Root of the No.: ", num_sqrt)
