@@ -1,0 +1,13 @@
+#day1 basic input output (program 1)
+
+name = input("Enter name: ")
+branch = input("Enter branch: ")
+gender = input("Enter Gender: ")
+college = input("Enter College: ")
+age = int(input("Enter Age: "))
+
+print("Hi!", name)
+print("Your Branch is ",branch)
+print("You are ", gender)
+print("And You study in ",college)
+print("You are ", age," years old")
