@@ -1,0 +1,10 @@
+#day1 program-4 (profit/loss)
+
+cp = eval(input("Enter Cost Price: "))
+sp = eval(input("Enter Selling Price: "))
+
+profit = sp - cp
+print("Profit Gain : ", profit)
+
+new_sp = 1.05 * profit + cp
+print("To increase profit by 5 % Selling price should be: ", new_sp)
