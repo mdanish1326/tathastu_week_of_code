@@ -1,0 +1,25 @@
+#day1  cricket program (program-5)
+
+run1 = int(input("Enter Run Scored by Player-1 in 60 Balls: "))
+run2 = int(input("Enter Run Scored by Player-2 in 60 Balls: "))
+run3 = int(input("Enter Run Scored by Player-3 in 60 Balls: "))
+print()
+
+strikeRate_1 = run1 * (60/100)
+strikeRate_2 = run2 * (60/100)
+strikeRate_3 = run3 * (60/100)
+
+print("Strike Rate of Player-1: ", strikeRate_1)
+print("Strike Rate of Player-2: ", strikeRate_2)
+print("Strike Rate of Player-3: ", strikeRate_3)
+print()
+
+print("Run Scored by Player-1 if 60 more balls are played: ", run1 * 2)
+print("Run Scored by Player-2 if 60 more balls are played: ", run2 * 2)
+print("Run Scored by Player-3 if 60 more balls are played: ", run3 * 2)
+print()
+
+print("Max number of sixes hit by Player-1: ", run1 // 6)
+print("Max number of sixes hit by Player-2: ", run2 // 6)
+print("Max number of sixes hit by Player-3: ", run3 // 6)
+
