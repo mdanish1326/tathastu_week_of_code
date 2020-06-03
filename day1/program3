@@ -1,0 +1,6 @@
+print("Before Swapping: ")
+a, b = 5, 10
+print("Value of a & b: ",a,"&",b)
+print("After Swapping: ")
+a, b = b, a
+print("Value of a & b: ",a,"&",b)
