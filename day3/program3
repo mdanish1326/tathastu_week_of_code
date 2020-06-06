@@ -1,0 +1,17 @@
+#day3 remove duplicate char in string (program3)
+
+def removeDuplicate(str):
+    output = ""
+
+    for char in str:
+        if char not in output:
+            output = output + char
+
+    return output
+
+
+str = input("Enter string: ")
+print(removeDuplicate(str))
+
+
+
