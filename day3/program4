@@ -1,0 +1,8 @@
+#day3 remove duplicasy from list (program-4)
+
+lis = []
+
+for i in range(int(input("Enter No. of elements in list: "))):
+    lis.append(input("Enter Element: "))
+
+print(list(set(lis)))
