@@ -1,0 +1,26 @@
+#day3 permutation of String (program-2)
+
+def strFun(str):
+    n = len(str)
+    i = 0
+    stringPermutation(str,i,n)
+
+
+
+def stringPermutation(str, start, end):
+    current = 0
+    if start == end-1:
+        print(str)
+
+    else:
+        for current in range(start, end):
+
+            x = list(str)
+            x[start], x[current] = x[current], x[start]
+
+            stringPermutation("".join(x), start + 1, end)
+            x[start], x[current] = x[current], x[start]
+
+
+string = input("Enter String to get Permutation: ")
+strFun(string)
