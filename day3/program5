@@ -1,0 +1,12 @@
+#day3 intersection of two list (program-2)
+
+lis_1 = []
+lis_2 = []
+
+for i in range(int(input("Enter No. of elements in List 1: "))):
+    lis_1.append(input("Enter Element: "))
+for i in range(int(input("Enter No. of elements in List 2: "))):
+    lis_2.append(input("Enter Element: "))
+
+intersection = (set(lis_1).intersection(set(lis_2)))
+print("intersection is: ", list(intersection))
