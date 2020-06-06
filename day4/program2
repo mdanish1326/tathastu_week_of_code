@@ -1,0 +1,19 @@
+#day4 list of tuples sort by index (program-2)
+lenLis = int(input("Enter No. of tuples in List: "))
+lenTup =  int(input("Enter the size of each tuple: "))
+
+
+lisOfTup = []
+for tup in range(lenLis):
+    print("Enter elements in " +str(tup+1)+" tuple")
+    lis = []
+    for elements in range(lenTup):
+        
+        lis.append(input("Enter tuple elements: "))
+        
+    lisOfTup.append(tuple(lis))
+
+print(lisOfTup)
+indx = int(input("Enter tuple no. to sort that tuple: "))
+lisOfTup.sort(key = lambda x : x[indx])
+print("after sorting: ",lisOfTup)
