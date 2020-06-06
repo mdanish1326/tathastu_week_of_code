@@ -1,0 +1,4 @@
+#day3 Reverse String (program-1)
+
+
+print("Reverse String: ", str[::-1],input("Enter String"))
