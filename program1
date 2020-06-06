@@ -1,0 +1,7 @@
+#day4 count occurence in tuple (program-4)
+
+tup = tuple(input("Enter Elements in Tuple: "))
+print("Tuple is: ",tup)
+
+element = tup.count(input("Enter element to count its occurence: "))
+print("Occurence is: ", element)
