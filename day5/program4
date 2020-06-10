@@ -15,4 +15,4 @@ for i in range(size):
     value = int(input("Enter the value for item number " + str(i + 1) + ": "))
     List.append((weight,value))
 weight = int(input("Enter the value of weight capacity: "))
-print("The maximum value for the given weight 
+print("The maximum value for the given weight " ,weight)
